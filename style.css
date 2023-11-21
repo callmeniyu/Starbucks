@@ -1,0 +1,529 @@
+
+@font-face {
+    font-family: SoDo-sans;
+    src: url(./Fonts/SoDoSans-Bold.ttf);
+}
+
+body{
+    font-size: SoDo-sans;
+}
+h1{
+    padding: 1.2rem 0 0;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: rgb(48, 46, 46);
+}
+h3{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: rgb(58, 53, 53);
+}
+h4{
+    font-size: 1.2rem;
+}
+
+h5{
+    font-family: SoDo-sans;
+    font-size: 0.9rem;
+    color: rgb(108, 100, 100);
+
+}
+h6{
+    font-size: 0.95rem;
+    font-weight: 400;
+    margin: 1.1rem 0;
+    line-height: 1.5;
+}
+p{
+    font-size: 1.1rem;
+}
+.sp-a{
+    color:#00754a;
+    text-decoration: underline;
+}
+.sp-a:hover{
+    text-decoration: none;
+    color:#00754a;
+}
+
+
+/* NAVBAR */
+
+.container-fluid{
+    padding-top: 10px;
+}
+.nav-link{
+    margin:0.8rem;
+    color: rgb(40, 38, 38);
+
+}
+.nav-item{
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family:SoDo-sans;
+}
+.top-btn{
+    margin: 10px;
+}
+.find-btn{
+    margin-right: 30px;
+}
+
+.sign-in-btn,.join-now-btn{
+    margin: 10px;
+}
+.sign-in-btn{
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 4px 15px;
+    border: solid 1px;
+    border-radius: 50px;
+}
+.sign-in-btn:hover{
+    background-color: rgb(205, 205, 205);
+    color:black !important;
+}
+.find-btn{
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 4px 15px 4px 0;
+    border-radius: 50px;
+}
+.join-now-btn{
+    background-color: black;
+    color: white;
+    border: solid 1px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.join-now-btn:hover{
+    background-color:rgb(130, 130, 130) !important;
+    color: white !important;
+}
+.top-holder{
+    background-color: #1e3932;
+    font-size: 0.9rem;
+    padding: 1rem 0 1rem 6.25rem;
+    color: white;
+    font-family:SoDo-sans;
+}
+#navbar a:hover,.valign-middle:hover{
+    color: #008248;
+}
+
+
+
+
+/* HERO SECTION */
+
+#main-section{
+    background-color: #d4e9e2;
+}
+.main-section{
+   display: flex;
+   height: 120vh;
+}
+.coffee-txt-img{
+    margin-left: 10rem;
+    height: 95%;
+}
+.main-words{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:2rem 0 2rem 4rem;
+}
+.main-btn{
+    margin-top: 1.5rem;
+    width:8rem;
+    background-color: #008248;
+    color: white;
+    border: solid 1px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.main-section h4{
+    padding: 2rem 0 0;
+
+}
+
+
+/* GET-STARTED */
+
+#get-started{
+    padding-bottom:5rem ;
+}
+.get-started-heading{
+    text-align: center;
+    margin: 7rem 0 3rem;
+}
+.steps{
+    text-align: center;
+}
+.bi{
+    color: #008248;
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem;
+    border-width:1px;
+}
+
+/* CHOICES */
+
+#choices{
+    background-color: #d4e9e2;
+    height:376px ;
+}
+.choice-img{
+    width: 375px;
+    height: 210px;
+}
+.slide-image-note{
+    text-align: left;
+    margin: 60px 10px;
+}
+.choice-container{
+    margin: 0 200px;
+}
+.carousel-indicators{
+    position: relative;
+    bottom: auto;
+    top: auto;
+}
+
+/* ENDLESS EXTRA */
+
+.endless-extra-head{
+    text-align: center;
+    margin: 7rem 0 3rem;
+    padding:0 20rem;
+}
+.endless-items{
+    text-align: center;
+    padding-bottom:3rem;
+}
+.endless-img{
+    width: 7rem;
+    width: 7rem;
+    margin: 0 0 2rem;
+}
+#cash-card{
+    background-color: #f3f1e7;
+}
+
+/* CASH OR CARD */
+
+#cash-card{
+    padding:0 4rem 4.5rem;
+}
+.cash-card-head{
+    text-align: center;
+    margin: 7rem 0 3rem;
+    padding:3rem 20rem;
+}
+.cash-card-img{
+    margin-right: 2rem;
+    width: 7rem;
+    height: 10rem;
+    float: left;
+}
+
+/* REWARDS SECTION */
+
+#rewards-coming{
+    background-image: url("https://www.starbucks.com/app-assets/844262945b2a8b8cfb293156e2583872.png");
+    padding: 2rem;
+}
+.rewards-coming{
+    background-color: #d4e9e2;
+}
+.reward-head{
+    text-align: center;
+    width: 80%;
+    margin: 2rem 5rem ;
+}
+.reward-content{
+    display: flex;
+    text-align: center;
+}
+.delta-skymiles{
+    width: 12rem;
+    height: 4rem;
+}
+.star-img{
+    margin: 2rem;
+    flex-basis: 2;
+    width: 14rem;
+    height: 25rem;
+}
+.star-div{
+    flex-basis: 2;
+}
+.reward-btn{
+    background-color: #00754a;
+    width: 15rem;
+    font-weight: 600;
+    margin: 2rem;
+}
+
+/* QUESTIONS */
+
+.questions{
+    width: 50%;
+    margin: 6rem 0 6rem 15rem ;
+}
+
+/* PARAGRAPH SECTION */
+
+#paragraphs{
+    padding: 3rem 2rem;
+    background-color: #f9f9f9;
+}
+
+/* TABLE SECTOIN */
+
+.table{
+    display: flex;
+    padding-right:10rem;
+
+}
+.first-column,
+.second-column,
+.third-column,
+.fourth-column,
+.fifth-column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 15rem;
+}
+.table a{
+    text-decoration: none;
+    color: rgb(75, 71, 71);
+}
+.table a:hover{
+    color: black;
+}
+#table hr{
+    margin: 3rem 0;
+}
+
+/* FOOTER SECTION */
+
+.social-icons{
+    color: rgb(0, 0, 0);
+    margin:2rem 0.8rem 2rem 0 ;
+}
+.social-icons:hover{
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: rgb(188, 69, 69);
+}
+.privacy{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10rem 0 0;
+}
+.privacy h4{
+    font-size: 1.1rem;
+}
+.privacy a{
+    text-decoration: none;
+    color: black;
+}
+.privacy a:hover{
+    text-decoration: underline;
+}
+#footer p{
+    margin: 1rem 0 8rem 0;
+    font-size: 0.9rem;
+    color: rgb(90, 86, 86);
+}
+
+#footer .container{
+    margin-left: 2rem;
+}
+
+/* BOOTSTRAP */
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar-toggler-icon{
+    color:#00754a;
+}
+
+
+ 
+/* MEDIUM 768px-992px */
+
+@media (max-width:992px){
+
+
+/* MAIN SECTION */
+
+.main-section{
+    height: 70vh;
+}
+.main-words{
+    min-width: 30%;
+    justify-content: flex-start;
+}
+.coffee-txt-img{
+    margin:0 0 0 4.2rem; 
+}
+
+/* REWARDS SECTION */
+
+.star-div{
+    display: none;
+}
+
+.third-block{
+    margin:2rem 7rem;
+    width: 70%;
+}
+
+/* CHOICES SECTION */
+
+.carousel-indicators{
+    margin-bottom: 0;
+}
+.choice-container{
+  margin-left: 20px;
+}
+.carousel-inner{
+    padding:0 !important;
+}
+.slide-image-note{
+    text-align: left;
+    width: 45%;
+    margin: 40px 10px ;
+}
+
+/* ENDLESS EXTRA SECTION */
+
+.endless-extra-head{
+    text-align: center;
+    padding:0 8rem 2rem;
+}
+#endless-extra .container{
+    padding-bottom: 0;
+}
+
+/* CASH  CARD SECTION */
+
+.cash-card-head{
+    padding: 2rem 8rem 1rem;
+}
+#cash-card{
+    padding: 0 0 4.5rem;
+}
+#cash-card .container{
+    max-width: 780px;
+}
+.cash-card-subhead{
+    margin: 1.5rem 0;
+}
+
+}    
+
+
+
+@media (max-width:768px){
+
+.main-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120vh;
+}
+.main-words{
+    margin-left: 0;
+}
+.main-btn{
+    margin-left: 7rem;
+}
+
+.coffee-txt-img{
+    height: 10%;
+    margin-left: 0;
+}
+.third-block{
+    width: 90%;
+    margin: 1rem 1.8rem;
+}
+#choices{
+    height: 80vh;
+}
+.choice-img{
+    margin-left: 4rem;
+}
+.slide-image-note{
+    width: 100%;
+    text-align: center;
+}
+.choice-container{
+    margin: 0 0;
+}
+.endless-extra-head{
+    padding: 2rem;
+}
+.endless-extra-items{
+    margin-bottom: 2rem;
+}
+.cash-card-head{
+    padding: 2.5rem;
+}.cash-card-subhead{
+    display: none;
+}
+.special{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+.reward-content{
+    display: block;
+    text-align: left;
+}
+.reward-head{
+    margin-left: 2.5rem;
+}
+.reward-txt{
+    display: flex;
+    flex-direction: column;
+
+}
+.delta-skymiles{
+    margin-left: 8rem;
+
+}.reward-btn{
+    margin-left: 2rem;
+
+}
+.questions{
+    margin-left: 9rem;
+    width: 60%;
+}
+.table{
+    display: flex;
+    flex-wrap: wrap;
+}
+.first-column,
+.second-column,
+.third-column,
+.fourth-column,
+.fifth-column{
+    max-width: 200px;
+}
+
+}
